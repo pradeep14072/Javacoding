@@ -16,6 +16,9 @@ public class Armstrong {
             result=result+(rem*rem*rem);
             temp=temp/10;
         }
+          if(n==result){
+            System
+          }
         System.out.println(n==result?"amstrong":"not amstrong");
         }
     }
