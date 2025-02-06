@@ -5,12 +5,10 @@ public class Primewithinrange {
 
         for (int i +2; i <= 25;
         i++
-        )
             
-        
+        )
         {
-    
-      boolean isprime = true;
+         boolean isprime = true;
             for (int j = 2; j < i / 2; j++) {
                 if (i % j == 0) {
                     is prime = false;
@@ -18,5 +16,6 @@ public class Primewithinrange {
                 }
             }
         }
-        System.out.print(isprime ? i + "" : "");
+        System.out.print(isprime ? i + "true" : "false");
     }
+}   
